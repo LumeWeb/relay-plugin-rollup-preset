@@ -1,1 +1,2 @@
-export declare const preset: import("rollup").RollupOptions;
+declare const preset: import("rollup").RollupOptions;
+export default preset;
