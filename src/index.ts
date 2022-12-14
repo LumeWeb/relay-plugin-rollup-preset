@@ -10,9 +10,9 @@ export default function preset(): RollupOptions {
     plugins: [
       typescript(),
       json(),
+      bundleNativeModulesPlugin(),
       nodeResolve(),
       commonjs(),
-      bundleNativeModulesPlugin(),
     ],
   });
 }
