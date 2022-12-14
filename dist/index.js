@@ -9,9 +9,9 @@ export default function preset() {
         plugins: [
             typescript(),
             json(),
+            bundleNativeModulesPlugin(),
             nodeResolve(),
             commonjs(),
-            bundleNativeModulesPlugin(),
         ],
     });
 }
