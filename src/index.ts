@@ -5,7 +5,7 @@ import { bundleNativeModulesPlugin } from "@lumeweb/rollup-plugin-bundle-native-
 import typescript from "@rollup/plugin-typescript";
 import json from "@rollup/plugin-json";
 
-export const preset = defineConfig({
+const preset = defineConfig({
   plugins: [
     typescript(),
     json(),
@@ -14,3 +14,5 @@ export const preset = defineConfig({
     bundleNativeModulesPlugin(),
   ],
 });
+
+export default preset;
