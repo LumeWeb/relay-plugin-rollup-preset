@@ -13,4 +13,4 @@ const preset = defineConfig({
         bundleNativeModulesPlugin(),
     ],
 });
-export default preset;
+export default ;
