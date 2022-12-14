@@ -5,7 +5,9 @@
     "dependencies": {
         "@lumeweb/rollup-plugin-bundle-native-modules": "https://git.lumeweb.com/LumeWeb/rollup-plugin-bundle-native-modules.git",
         "@rollup/plugin-commonjs": "^23.0.4",
+        "@rollup/plugin-json": "^5.0.2",
         "@rollup/plugin-node-resolve": "^15.0.1",
+        "@rollup/plugin-typescript": "^10.0.1",
         "rollup": "^3.7.4"
     },
     "devDependencies": {

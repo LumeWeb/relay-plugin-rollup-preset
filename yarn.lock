@@ -19,6 +19,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@lumeweb/relay-plugin-rollup-preset@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@lumeweb/relay-plugin-rollup-preset@workspace:."
+  dependencies:
+    "@lumeweb/rollup-plugin-bundle-native-modules": "https://git.lumeweb.com/LumeWeb/rollup-plugin-bundle-native-modules.git"
+    "@rollup/plugin-commonjs": ^23.0.4
+    "@rollup/plugin-json": ^5.0.2
+    "@rollup/plugin-node-resolve": ^15.0.1
+    "@rollup/plugin-typescript": ^10.0.1
+    prettier: ^2.8.1
+    rollup: ^3.7.4
+  languageName: unknown
+  linkType: soft
+
 "@lumeweb/rollup-plugin-bundle-native-modules@https://git.lumeweb.com/LumeWeb/rollup-plugin-bundle-native-modules.git":
   version: 0.1.0
   resolution: "@lumeweb/rollup-plugin-bundle-native-modules@https://git.lumeweb.com/LumeWeb/rollup-plugin-bundle-native-modules.git#commit=194368400631fcf482cd70169480ba1bcc0c6e95"
@@ -69,6 +83,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@rollup/plugin-json@npm:^5.0.2":
+  version: 5.0.2
+  resolution: "@rollup/plugin-json@npm:5.0.2"
+  dependencies:
+    "@rollup/pluginutils": ^5.0.1
+  peerDependencies:
+    rollup: ^1.20.0||^2.0.0||^3.0.0
+  peerDependenciesMeta:
+    rollup:
+      optional: true
+  checksum: 9b5f90ea311dfcfacf0f38af39bbb1954ea56d6faecdee3d528f73d0e02da96a0706ab21fae0c8eef9bb5d756f6f50b40b5a252ffd9800397012b5bac6764b6f
+  languageName: node
+  linkType: hard
+
 "@rollup/plugin-node-resolve@npm:^15.0.1":
   version: 15.0.1
   resolution: "@rollup/plugin-node-resolve@npm:15.0.1"
@@ -85,6 +113,25 @@ __metadata:
     rollup:
       optional: true
   checksum: 90e30b41626a15ebf02746a83d34b15f9fe9051ddc156a9bf785504f489947980b3bdeb7bf2f80828a9becfe472a03a96d0238328a3e3e2198a482fcac7eb3aa
+  languageName: node
+  linkType: hard
+
+"@rollup/plugin-typescript@npm:^10.0.1":
+  version: 10.0.1
+  resolution: "@rollup/plugin-typescript@npm:10.0.1"
+  dependencies:
+    "@rollup/pluginutils": ^5.0.1
+    resolve: ^1.22.1
+  peerDependencies:
+    rollup: ^2.14.0||^3.0.0
+    tslib: "*"
+    typescript: ">=3.7.0"
+  peerDependenciesMeta:
+    rollup:
+      optional: true
+    tslib:
+      optional: true
+  checksum: d3e85674b5ff56c4376bbd79fd2baced3e988b7110d60b1f818eb344721f5605eaa3b56a1668631d210399db7188a7cc4790bb423ad9e56144d015fd1591ccc3
   languageName: node
   linkType: hard
 
@@ -930,18 +977,6 @@ __metadata:
   checksum: d4ea81502d3799439bb955a3a5d1d808592cf3133350ed352aeaa499647858b27b1c4013984900238b0873ec8d0d8defce72469fb7a83e61d53f5ad61cb80dc8
   languageName: node
   linkType: hard
-
-"relay-plugin-rollup-preset@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "relay-plugin-rollup-preset@workspace:."
-  dependencies:
-    "@lumeweb/rollup-plugin-bundle-native-modules": "https://git.lumeweb.com/LumeWeb/rollup-plugin-bundle-native-modules.git"
-    "@rollup/plugin-commonjs": ^23.0.4
-    "@rollup/plugin-node-resolve": ^15.0.1
-    prettier: ^2.8.1
-    rollup: ^3.7.4
-  languageName: unknown
-  linkType: soft
 
 "resolve@npm:^1.22.1":
   version: 1.22.1
