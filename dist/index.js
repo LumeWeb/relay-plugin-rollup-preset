@@ -5,13 +5,13 @@ import { bundleNativeModulesPlugin } from "@lumeweb/rollup-plugin-bundle-native-
 import typescript from "@rollup/plugin-typescript";
 import json from "@rollup/plugin-json";
 export default function preset() {
-    return defineConfig({
-        plugins: [
-            typescript(),
-            json(),
-            nodeResolve(),
-            commonjs(),
-            bundleNativeModulesPlugin(),
-        ],
-    });
+  return defineConfig({
+    plugins: [
+      typescript(),
+      json(),
+      bundleNativeModulesPlugin(),
+      nodeResolve(),
+      commonjs(),
+    ],
+  });
 }
