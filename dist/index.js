@@ -10,7 +10,10 @@ export default function preset() {
             typescript(),
             json(),
             bundleNativeModulesPlugin(),
-            nodeResolve(),
+            nodeResolve({
+                mainFields: ["main"],
+                exportConditions: ["node", "require", "default"],
+            }),
             commonjs(),
         ],
     });
