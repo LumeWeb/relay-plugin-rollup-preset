@@ -23,7 +23,6 @@ export default function preset(
         json(),
         bundleNativeModulesPlugin(),
         nodeResolve({
-          mainFields: ["main"],
           ...resolveOptions,
         }),
         commonjs(commonJsOptions),
