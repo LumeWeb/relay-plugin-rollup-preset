@@ -13,8 +13,6 @@ export default function preset(globalOptions, resolveOptions = {}, commonJsOptio
             json(),
             bundleNativeModulesPlugin(),
             nodeResolve({
-                mainFields: ["main"],
-                exportConditions: ["node", "require", "default"],
                 ...resolveOptions,
             }),
             commonjs(commonJsOptions),
