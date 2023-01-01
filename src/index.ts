@@ -11,7 +11,10 @@ export default function preset(): RollupOptions {
       typescript(),
       json(),
       bundleNativeModulesPlugin(),
-      nodeResolve(),
+      nodeResolve({
+        mainFields: ["main"],
+        exportConditions: ["node", "require", "default"],
+      }),
       commonjs(),
     ],
   });
