@@ -1,2 +1,3 @@
 import { RollupOptions } from "rollup";
-export default function preset(): RollupOptions;
+import { RollupNodeResolveOptions } from "@rollup/plugin-node-resolve";
+export default function preset(globalOptions: RollupOptions, resolveOptions?: RollupNodeResolveOptions, commonJsOptions?: any): RollupOptions;
