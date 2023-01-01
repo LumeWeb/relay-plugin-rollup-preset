@@ -24,7 +24,6 @@ export default function preset(
         bundleNativeModulesPlugin(),
         nodeResolve({
           mainFields: ["main"],
-          exportConditions: ["node", "require", "default"],
           ...resolveOptions,
         }),
         commonjs(commonJsOptions),
