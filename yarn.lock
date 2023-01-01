@@ -38,13 +38,13 @@ __metadata:
 
 "@lumeweb/rollup-plugin-bundle-native-modules@https://git.lumeweb.com/LumeWeb/rollup-plugin-bundle-native-modules.git":
   version: 0.1.0
-  resolution: "@lumeweb/rollup-plugin-bundle-native-modules@https://git.lumeweb.com/LumeWeb/rollup-plugin-bundle-native-modules.git#commit=301a6e623bae0e2f3bd64075ed752c6caeb54adb"
+  resolution: "@lumeweb/rollup-plugin-bundle-native-modules@https://git.lumeweb.com/LumeWeb/rollup-plugin-bundle-native-modules.git#commit=76ab2cdb49b2efb2d27954b451e8d8c3775c9388"
   dependencies:
     ast-matcher: ^1.1.1
     loady: ^0.0.5
     magic-string: ^0.27.0
     node-gyp-build: ^4.5.0
-  checksum: c64f27be51305dcb7d127160c1461ccbd9c9079b6f0593d4a72bd7906878b48862cf994b17907a8f58f93fb331eb107f19ed53b2b448a09db62ff2b6028a09a4
+  checksum: bea66f37a10eadb9a9239d85b15f38a192d0b6d41639253463f51d8fd5bf44a93725a6f80b1151418c2a2a403149e4332c78536bfe1cdd75dfde49fbfd60d1ed
   languageName: node
   linkType: hard
 
